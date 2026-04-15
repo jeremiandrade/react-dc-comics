@@ -4,11 +4,10 @@ export default function AppHeader() {
 
     return (
         <header>
-
             <img src={logoHeader} alt="" />
             <nav>
                 <a href="#">CHARACTERS</a>
-                <a href="#">COMICS</a>
+                <a href="#" className="nav-link">COMICS</a>
                 <a href="#">MOVIES</a>
                 <a href="#">TV</a>
                 <a href="#">GAMES</a>
@@ -17,17 +16,7 @@ export default function AppHeader() {
                 <a href="#">FANS</a>
                 <a href="#">NEWS</a>
                 <a href="#">SHOP</a>
-
-
-
-
-
             </nav>
-
-
-
-
-
         </header>
     )
 }

@@ -52,21 +52,16 @@ export default function AppFooter() {
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
 
-                <button>SIGN-UP-NOW</button>
-
-                <h3>FOLLOW US</h3>
-
 
             </div>
 
+            <button>SIGN-UP-NOW</button>
+            <h3>FOLLOW US</h3>
             <img src={imgFb} alt="Facebook" />
             <img src={imgTwitter} alt="Twitter" />
             <img src={imgYt} alt="YouTube" />
             <img src={imgP} alt="pinterest" />
             <img src={imgScope} alt="Scope" />
-
-
-
 
         </footer>
     )

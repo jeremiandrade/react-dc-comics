@@ -2,46 +2,108 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 body {
-  background-color: grey;
+  background-color: white;
 }
 
 
 header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem 6rem;
   background-color: white;
   justify-content: space-between;
-
-
 }
 
+a {
+  text-decoration: none;
+}
 
 
 header nav a {
-  text-decoration: none;
   margin-right: 10px;
   color: black;
-  font-size: 0.90rem;
+  font-size: 0.70rem;
   padding: 0 1rem;
-
+  font-weight: 700;
 }
+
+
+.nav-link {
+  color: rgb(68, 68, 222);
+}
+
 
 header img {
   height: 60px;
   width: auto;
-  margin-left: 10rem;
-
-
-
+  margin-left: 10rem
 }
 
-img {
-  width: 50px;
+
+main {
+  background-color: black;
+}
+
+main p {
+  border: 1px black solid;
+  border-top: 5rem;
+  height: 6.5rem;
+  padding: 2rem 20rem;
+  font-size: 1.4rem;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+}
+
+main div {
+  background-color: rgb(59, 109, 217);
+  height: 6.5rem;
+  width: 100%;
+}
+
+main img {
+  width: auto;
+  height: 80px;
+  padding: 1.4rem 0;
+  margin-right: 170px;
+  margin-left: 150px;
+  margin-top: 0.50rem;
+}
+
+footer {
+  background-image: url('../dc-comics-1/img/footer-bg.jpg');
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+footer div {
+  display: flex;
+  margin-left: 9rem;
+  font-size: small;
+}
+
+footer h2 {
+  color: white;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+
+
+
+footer a {
+
+  color: grey;
+  margin-top: 2rem;
+  margin-left: 3rem;
+
 }

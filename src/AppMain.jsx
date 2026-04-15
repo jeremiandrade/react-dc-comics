@@ -10,22 +10,14 @@ export default function AppMain() {
 
     return (
         <main>
-
             <p> Content goes here </p>
-
-            <img src={logoDigiComics} alt="loghi" />
-            <img src={logoMerchandise} alt="loghi" />
-            <img src={logoShop} alt="loghi" />
-            <img src={logoSub} alt="loghi" />
-            <img src={logoVisa} alt="loghi" />
-
-
-
-
-
-
-
-
+            <div>
+                <img src={logoDigiComics} alt="loghi" />
+                <img src={logoMerchandise} alt="loghi" />
+                <img src={logoSub} alt="loghi" />
+                <img src={logoShop} alt="loghi" />
+                <img src={logoVisa} alt="loghi" />
+            </div>
         </main>
     )
 }
