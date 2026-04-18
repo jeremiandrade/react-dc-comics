@@ -54,14 +54,20 @@ export default function AppFooter() {
 
 
             </div>
+            <div
+                className='about'>
+                <button>SIGN-UP-NOW</button>
+            </div>
 
-            <button>SIGN-UP-NOW</button>
-            <h3>FOLLOW US</h3>
-            <img src={imgFb} alt="Facebook" />
-            <img src={imgTwitter} alt="Twitter" />
-            <img src={imgYt} alt="YouTube" />
-            <img src={imgP} alt="pinterest" />
-            <img src={imgScope} alt="Scope" />
+            <div className='social'>
+                <h3>FOLLOW US</h3>
+                <img src={imgFb} alt="Facebook" />
+                <img src={imgTwitter} alt="Twitter" />
+                <img src={imgYt} alt="YouTube" />
+                <img src={imgP} alt="pinterest" />
+
+            </div>
+
 
         </footer>
     )
