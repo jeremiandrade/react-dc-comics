@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(236, 208, 208);
+  background-color: white(236, 208, 208);
 }
 
 a {
@@ -27,6 +27,7 @@ header {
 
 header img {
   width: 80px;
+  cursor: pointer;
 }
 
 nav {
@@ -39,7 +40,8 @@ nav a {
 }
 
 .nav-link {
-  color: rgb(53, 53, 242);
+  color: rgb(59, 109, 217);
+  border-bottom: 3px solid rgb(59, 109, 217);
 }
 
 
@@ -52,9 +54,6 @@ main p {
   padding: 4rem 20rem;
 
 }
-
-
-
 
 main div {
   display: flex;
@@ -70,8 +69,86 @@ main img {
 
 }
 
-
 .info {
   color: white;
   font-size: 10px;
+}
+
+
+/* footer */
+
+footer {
+  background-image: url('../dc-comics-1/img/footer-bg.jpg');
+}
+
+footer .list {
+  display: flex;
+  padding-left: 9rem;
+
+
+}
+
+ul {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  list-style: none;
+  color: white;
+}
+
+li {
+  line-height: 1.9;
+}
+
+li h2 {
+  padding: 5px;
+  margin-left: -4px;
+
+}
+
+ul a {
+  color: white;
+
+
+}
+
+.shop {
+  margin-left: -2.5rem;
+
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 12%;
+  background-color: rgb(56, 55, 55);
+
+
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid rgb(59, 109, 217);
+  color: white;
+  padding: 2px 20px;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+
+}
+
+.social {
+  display: flex;
+  align-items: center;
+
+}
+
+.social h3 {
+  color: rgb(59, 109, 217);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social img {
+  margin-left: 1.2rem;
+
 }

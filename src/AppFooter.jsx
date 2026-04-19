@@ -13,9 +13,10 @@ export default function AppFooter() {
     return (
         <footer>
 
-            <div>
+            <div className='list'>
+
                 <ul>
-                    <h2>DC COMICS</h2>
+                    <li><h2>DC COMICS</h2></li>
                     <li><a href="#">Characters</a></li>
                     <li><a href="#">Comics</a></li>
                     <li><a href="#">Movies</a></li>
@@ -23,13 +24,17 @@ export default function AppFooter() {
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">News</a></li>
 
-                    <h2>SHOP</h2>
-                    <li><a href="#">Shop DC</a></li>
-                    <li><a href="#">Shop DC Collectibles</a></li>
+
+                    <ul className='shop'>
+                        <li><h2>SHOP</h2></li>
+                        <li><a href="#">Shop DC</a></li>
+                        <li><a href="#">Shop DC Collectibles</a></li>
+                    </ul>
                 </ul>
 
+
                 <ul>
-                    <h2>DC</h2>
+                    <li><h2>DC</h2></li>
                     <li><a href="#">Terms Of Use</a></li>
                     <li><a href="#">Privacy Policy (News)</a></li>
                     <li><a href="#">Ad Choices</a></li>
@@ -43,8 +48,9 @@ export default function AppFooter() {
                     <li><a href="#">Contact Us</a></li>
                 </ul>
 
+
                 <ul>
-                    <h2>SITES</h2>
+                    <li><h2>SITES</h2></li>
                     <li><a href="#">DC</a></li>
                     <li><a href="#">MAD Magazines</a></li>
                     <li><a href="#">DC Kids</a></li>
@@ -55,16 +61,18 @@ export default function AppFooter() {
 
             </div>
             <div
-                className='about'>
-                <button>SIGN-UP-NOW</button>
-            </div>
+                className='btn'>
+                <button>SIGN-UP NOW!</button>
 
-            <div className='social'>
-                <h3>FOLLOW US</h3>
-                <img src={imgFb} alt="Facebook" />
-                <img src={imgTwitter} alt="Twitter" />
-                <img src={imgYt} alt="YouTube" />
-                <img src={imgP} alt="pinterest" />
+
+                <div className='social'>
+                    <h3>FOLLOW US</h3>
+                    <img src={imgFb} alt="Facebook" />
+                    <img src={imgTwitter} alt="Twitter" />
+                    <img src={imgYt} alt="YouTube" />
+                    <img src={imgP} alt="pinterest" />
+                    <img src={imgScope} alt="Scope" />
+                </div>
 
             </div>
 
