@@ -44,16 +44,16 @@ nav a {
   border-bottom: 3px solid rgb(59, 109, 217);
 }
 
-
 /* main */
 
-main p {
+/* main p {
   color: white;
   font-size: 1.5rem;
   background-color: black;
   padding: 4rem 20rem;
 
-}
+} */
+
 
 main div {
   display: flex;
@@ -62,6 +62,7 @@ main div {
   background-color: rgb(59, 109, 217);
   padding: 1.5rem;
   gap: 16px;
+  cursor: pointer;
 }
 
 main img {
@@ -74,6 +75,64 @@ main img {
   font-size: 10px;
 }
 
+
+.jumbotron {
+
+  height: 300px;
+  min-width: 100%;
+
+}
+
+main section {
+  position: relative;
+  background-color: black;
+}
+
+.series {
+  position: absolute;
+  color: white;
+  padding: 10px 15px;
+  left: 10rem;
+  top: 17.5rem;
+}
+
+
+
+.imgSeries {
+  background-color: black;
+  flex-wrap: wrap;
+  padding: 4rem 2.5rem;
+}
+
+.imgSeries div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc(100% / 6 - 30px);
+  background-color: transparent;
+
+}
+
+.imgSeries img {
+  max-width: 100%;
+}
+
+.imgSeries h4 {
+
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+}
+
+
+.btnMore {
+  margin: 1.5rem;
+  margin-left: 42.5rem;
+  background-color: rgb(59, 109, 217);
+  cursor: pointer;
+  padding: 0.50rem 1.5rem;
+}
 
 /* footer */
 
