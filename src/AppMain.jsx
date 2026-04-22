@@ -1,3 +1,4 @@
+import ComicsCard from './ComicsCard';
 import imgJumbotron from '../dc-comics-1/img/jumbotron.jpg';
 import comicsJs from '../dc-comics-2/comics';
 import logoDigiComics from '../dc-comics-1/img/buy-comics-digital-comics.png';
@@ -5,6 +6,7 @@ import logoMerchandise from '../dc-comics-1/img/buy-comics-merchandise.png';
 import logoShop from '../dc-comics-1/img/buy-comics-shop-locator.png';
 import logoSub from '../dc-comics-1/img/buy-comics-subscriptions.png';
 import logoVisa from '../dc-comics-1/img/buy-dc-power-visa.svg';
+
 
 export default function AppMain() {
 
@@ -17,11 +19,9 @@ export default function AppMain() {
 
                 <div className='imgSeries'>
                     {comicsJs.map((item) => (
-                        <div key={item.id}>
-                            <img src={item.thumb} alt={item.series} />
-                            <h4>{item.series}</h4>
 
-                        </div>))}
+                        <ComicsCard key={item.id} src={item.thumb} alt={item.series} h4={item.series} />
+                    ))}
                 </div>
                 <button className='btnMore'><strong>LOAD MORE</strong></button>
             </section>
